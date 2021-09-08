@@ -1,12 +1,13 @@
 body {
   margin: 0;
   height: 100vh;
-  font-family: "Lato", sans-serif;
+  background-color: #ecf0f1;
 }
 
 .hero-image {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-    url(../images/header_1.jpeg);
+  background-image: linear-gradient(rgba(0, 26, 255, 0.5), rgba(0, 0, 0, 0.5)),
+    url("../images/pattern.png");
+  background-blend-mode: darken;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -22,7 +23,8 @@ body {
   top: 39%;
   left: 50%;
   transform: translate(-50%, -50%);
-  color: white;
+  color: #f1c40f;
+  font-family: "Open Sans", sans-serif;
 }
 
 .wide {
@@ -55,4 +57,58 @@ body {
 
 .justify {
   text-align: justify !important;
+}
+
+a {
+  color: #2c3e50;
+  text-decoration: none;
+}
+
+a:hover {
+  color: blue;
+}
+
+table {
+  max-width: 960px;
+  margin: 10px auto;
+}
+
+caption {
+  font-size: 1.6em;
+  font-weight: 400;
+  padding: 10px 0;
+}
+
+thead th {
+  font-weight: 400;
+  background: #8a97a0;
+  color: #fff;
+}
+
+tr {
+  background: #f4f7f8;
+  border-bottom: 1px solid #fff;
+  margin-bottom: 5px;
+}
+
+tr:nth-child(even) {
+  background: #e8eeef;
+}
+
+th,
+td {
+  text-align: left;
+  padding: 20px;
+  font-weight: 300;
+}
+
+tfoot tr {
+  background: none;
+}
+
+tfoot td {
+  padding: 10px 2px;
+  font-size: 0.8em;
+  font-style: italic;
+  color: #8a97a0;
 }
