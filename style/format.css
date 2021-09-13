@@ -27,6 +27,16 @@ body {
   font-family: "Open Sans", sans-serif;
 }
 
+/* Menu */
+
+.hero-menu {
+  position: absolute;
+  left: 37.21%;
+  right: 7.86%;
+  top: 8.57%;
+  bottom: 85.71%;
+}
+
 .wide {
   letter-spacing: 4px;
 }
