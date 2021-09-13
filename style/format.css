@@ -177,11 +177,29 @@ body {
   margin: 0 131px 0 0;
 }
 
-img.Photo {
+img.photo {
   width: 585px;
   height: 734px;
   margin: 0 131px 0 0;
   object-fit: contain;
+}
+
+.blockquote {
+  width: 506px;
+  height: auto;
+  flex-grow: 0;
+  margin: 0 68px 20px 67px;
+  background-image: linear-gradient(to bottom, #f7e3a7, #e4a230);
+  color: #7d4b1d;
+  padding: 30px;
+  font-style: italic;
+  font-size: 25px;
+  border-color: #e8cf85;
+  border-style: solid;
+  border-width: 1px;
+  line-height: 36px;
+  border-radius: 10px;
+  box-shadow: 9px, 9px, 10px #15609e;
 }
 
 a {
