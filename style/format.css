@@ -37,6 +37,70 @@ body {
   bottom: 85.71%;
 }
 
+.Home {
+  width: 51px;
+  height: 28px;
+  flex-grow: 0;
+  margin: 7.2px 33px 4.8px 0;
+  font-family: DMSans;
+  font-size: 18px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.56;
+  letter-spacing: normal;
+  text-align: left;
+  color: rgba(21, 20, 57, 0.4);
+}
+
+.Features {
+  width: 74px;
+  height: 28px;
+  flex-grow: 0;
+  margin: 7.2px 37px 4.8px 33px;
+  font-family: DMSans;
+  font-size: 18px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.56;
+  letter-spacing: normal;
+  text-align: left;
+  color: rgba(21, 20, 57, 0.4);
+}
+
+.Blog {
+  width: 36px;
+  height: 28px;
+  flex-grow: 0;
+  margin: 7.2px 39px 4.8px 37px;
+  font-family: DMSans;
+  font-size: 18px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.56;
+  letter-spacing: normal;
+  text-align: left;
+  color: rgba(21, 20, 57, 0.4);
+}
+
+.Shop {
+  width: 44px;
+  height: 28px;
+  flex-grow: 0;
+  margin: 7.2px 30px 4.8px 39px;
+  font-family: DMSans;
+  font-size: 18px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.56;
+  letter-spacing: normal;
+  text-align: left;
+  color: rgba(21, 20, 57, 0.4);
+}
+
 .wide {
   letter-spacing: 4px;
 }
