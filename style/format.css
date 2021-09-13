@@ -42,7 +42,7 @@ body {
   height: 28px;
   flex-grow: 0;
   margin: 7.2px 33px 4.8px 0;
-  font-family: DMSans;
+  font-family: "Open Sans", sans-serif;
   font-size: 18px;
   font-weight: 500;
   font-stretch: normal;
@@ -50,7 +50,7 @@ body {
   line-height: 1.56;
   letter-spacing: normal;
   text-align: left;
-  color: rgba(21, 20, 57, 0.4);
+  color: rgba(241, 196, 15, 1);
 }
 
 .Features {
@@ -58,7 +58,7 @@ body {
   height: 28px;
   flex-grow: 0;
   margin: 7.2px 37px 4.8px 33px;
-  font-family: DMSans;
+  font-family: "Open Sans", sans-serif;
   font-size: 18px;
   font-weight: 500;
   font-stretch: normal;
@@ -66,7 +66,7 @@ body {
   line-height: 1.56;
   letter-spacing: normal;
   text-align: left;
-  color: rgba(21, 20, 57, 0.4);
+  color: rgba(241, 196, 15, 1);
 }
 
 .Blog {
@@ -74,7 +74,7 @@ body {
   height: 28px;
   flex-grow: 0;
   margin: 7.2px 39px 4.8px 37px;
-  font-family: DMSans;
+  font-family: "Open Sans", sans-serif;
   font-size: 18px;
   font-weight: 500;
   font-stretch: normal;
@@ -82,7 +82,7 @@ body {
   line-height: 1.56;
   letter-spacing: normal;
   text-align: left;
-  color: rgba(21, 20, 57, 0.4);
+  color: rgba(241, 196, 15, 1);
 }
 
 .Shop {
@@ -90,7 +90,7 @@ body {
   height: 28px;
   flex-grow: 0;
   margin: 7.2px 30px 4.8px 39px;
-  font-family: DMSans;
+  font-family: "Open Sans", sans-serif;
   font-size: 18px;
   font-weight: 500;
   font-stretch: normal;
@@ -98,27 +98,10 @@ body {
   line-height: 1.56;
   letter-spacing: normal;
   text-align: left;
-  color: rgba(21, 20, 57, 0.4);
+  color: rgba(241, 196, 15, 1);
 }
 
-.wide {
-  letter-spacing: 4px;
-}
-
-.opacity {
-  opacity: 0.6;
-}
-
-.padding-64 {
-  padding-top: 64px !important;
-  padding-bottom: 64px !important;
-}
-
-.center {
-  text-align: center !important;
-}
-
-.content_13 {
+.content {
   align-self: center;
   flex-grow: 0;
   padding: 40px 215px;
@@ -128,11 +111,9 @@ body {
 .Placeholder {
   flex-grow: 0;
   padding: 60px 164px 56px 165px;
-  border-radius: 10px;
-  border: solid 2px #ebeaed;
 }
 
-.Beautiful-Framework {
+.aboutme {
   width: 506px;
   height: 52px;
   flex-grow: 0;
@@ -148,7 +129,7 @@ body {
   color: #1e0e62;
 }
 
-.Startup-Framework-co {
+.paragraph {
   width: 641px;
   height: auto;
   flex-grow: 0;
@@ -164,19 +145,48 @@ body {
   color: rgba(21, 20, 57, 0.4);
 }
 
+.feature {
+  width: 1400px;
+  height: 734px;
+  align-self: center;
+  flex-grow: 0;
+  padding: 0 115px 0 0;
+  background-color: #fff;
+}
+
+.bold {
+  width: 569px;
+  height: 52px;
+  flex-grow: 0;
+  margin: 0 0 31px;
+  font-family: DMSans;
+  font-size: 42px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.24;
+  letter-spacing: -0.4px;
+  text-align: left;
+  color: #1e0e62;
+}
+
+.Mask {
+  width: 585px;
+  height: 734px;
+  flex-grow: 0;
+  margin: 0 131px 0 0;
+}
+
+img.Photo {
+  width: 585px;
+  height: 734px;
+  margin: 0 131px 0 0;
+  object-fit: contain;
+}
+
 .container,
 .panel {
   padding: 0.01em 16px;
-}
-
-.content,
-.auto {
-  margin-left: auto;
-  margin-right: auto;
-}
-
-.justify {
-  text-align: justify !important;
 }
 
 a {
