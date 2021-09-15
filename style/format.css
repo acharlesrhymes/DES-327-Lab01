@@ -28,77 +28,30 @@ body {
 }
 
 /* Menu */
-
-.hero-menu {
-  position: absolute;
-  left: 37.21%;
-  right: 7.86%;
-  top: 8.57%;
-  bottom: 85.71%;
-}
-
-.Home {
-  width: 51px;
-  height: 28px;
-  flex-grow: 0;
-  margin: 7.2px 33px 4.8px 0;
+.menu {
   font-family: "Open Sans", sans-serif;
   font-size: 18px;
   font-weight: 500;
   font-stretch: normal;
   font-style: normal;
-  line-height: 1.56;
-  letter-spacing: normal;
-  text-align: left;
-  color: rgba(241, 196, 15, 1);
+  width: auto;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 31em;
+  list-style-type: none;
 }
 
-.Features {
-  width: 74px;
-  height: 28px;
-  flex-grow: 0;
-  margin: 7.2px 37px 4.8px 33px;
-  font-family: "Open Sans", sans-serif;
-  font-size: 18px;
-  font-weight: 500;
-  font-stretch: normal;
-  font-style: normal;
-  line-height: 1.56;
-  letter-spacing: normal;
-  text-align: left;
-  color: rgba(241, 196, 15, 1);
+.menu li {
+  display: inline;
+  margin-right: 30px;
 }
 
-.Blog {
-  width: 36px;
-  height: 28px;
-  flex-grow: 0;
-  margin: 7.2px 39px 4.8px 37px;
-  font-family: "Open Sans", sans-serif;
-  font-size: 18px;
-  font-weight: 500;
-  font-stretch: normal;
-  font-style: normal;
-  line-height: 1.56;
-  letter-spacing: normal;
-  text-align: left;
-  color: rgba(241, 196, 15, 1);
+.menu a {
+  color: #f1c40f;
 }
 
-.Shop {
-  width: 44px;
-  height: 28px;
-  flex-grow: 0;
-  margin: 7.2px 30px 4.8px 39px;
-  font-family: "Open Sans", sans-serif;
-  font-size: 18px;
-  font-weight: 500;
-  font-stretch: normal;
-  font-style: normal;
-  line-height: 1.56;
-  letter-spacing: normal;
-  text-align: left;
-  color: rgba(241, 196, 15, 1);
+.menu a:hover {
+  color: #f1c40f;
 }
 
 .content {
@@ -121,7 +74,6 @@ body {
 }
 
 .aboutme {
-  
   width: 506px;
   height: 52px;
   flex-grow: 0;
@@ -177,21 +129,21 @@ body {
   right: 8.21%;
   top: 13.62%;
   bottom: 79.29%;
-font-family: DM Sans;
-font-style: normal;
-font-weight: bold;
-font-size: 42px;
-line-height: 52px;
-letter-spacing: -0.4px;
-color: #1E0E62;
+  font-family: DM Sans;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 42px;
+  line-height: 52px;
+  letter-spacing: -0.4px;
+  color: #1e0e62;
 }
 
 .test {
   position: absolute;
-left: 31.14%;
-right: 8.21%;
-top: 2.93%;
-bottom: 61.99%;
+  left: 31.14%;
+  right: 8.21%;
+  top: 2.93%;
+  bottom: 61.99%;
   width: 569px;
   height: 96px;
   flex-grow: 0;
@@ -208,54 +160,52 @@ bottom: 61.99%;
 }
 
 .Divider {
-position: absolute;
-left: 32.14%;
-right: 15.29%;
-top: 103.37%;
-bottom: 54.36%;
-width: 470px;
-height: 2px;
-background: #EBEAED;
-mix-blend-mode: normal;
-opacity: 0.1;
-border: 1px solid #141414;
+  position: absolute;
+  left: 32.14%;
+  right: 15.29%;
+  top: 103.37%;
+  bottom: 54.36%;
+  width: 470px;
+  height: 2px;
+  background: #ebeaed;
+  mix-blend-mode: normal;
+  opacity: 0.1;
+  border: 1px solid #141414;
 }
 
 .below {
-position: absolute;
-left: 51.21%;
-right: 37.21%;
-top: 55.18%;
-bottom: 13.62%;
-align-self: center;
-flex-grow: 0;
-margin: 0 83px 0 0;
+  position: absolute;
+  left: 51.21%;
+  right: 37.21%;
+  top: 55.18%;
+  bottom: 13.62%;
+  align-self: center;
+  flex-grow: 0;
+  margin: 0 83px 0 0;
 }
 
-
-.list_1{
+.list_1 {
   position: absolute;
   height: 26px;
-  
+
   right: 39.36%;
-  top: calc(50% - 26px/2 + 15em);
-  
+  top: calc(50% - 26px / 2 + 15em);
+
   /* Text / Label */
-  
+
   font-family: DM Sans;
   font-style: normal;
   font-weight: bold;
   font-size: 14px;
   line-height: 26px;
   /* identical to box height, or 186% */
-  
+
   letter-spacing: 2px;
   text-transform: uppercase;
-  
+
   /* Colors / Heading */
-  
-  color: #1E0E62;
-  
+
+  color: #1e0e62;
 }
 
 .Mask {
