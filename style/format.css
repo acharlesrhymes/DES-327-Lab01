@@ -102,18 +102,26 @@ body {
 }
 
 .content {
+  position: relative;
+  width: 1400px;
+  height: auto;
   align-self: center;
   flex-grow: 0;
-  padding: 40px 215px;
+  padding: 5em 40px 40px 30em;
   background-color: #fff;
 }
 
 .Placeholder {
-  flex-grow: 0;
+  width: 970px;
+  height: auto;
+  flex-grow: 12px;
   padding: 60px 164px 56px 165px;
+  border-radius: 10px;
+  border: solid 2px #ebeaed;
 }
 
 .aboutme {
+  
   width: 506px;
   height: 52px;
   flex-grow: 0;
@@ -146,28 +154,108 @@ body {
 }
 
 .feature {
+  position: relative;
   width: 1400px;
-  height: 734px;
+  height: auto;
   align-self: center;
   flex-grow: 0;
   padding: 0 115px 0 0;
   background-color: #fff;
 }
 
-.bold {
+.title {
+  position: absolute;
+  left: 51.14%;
+  right: 8.21%;
+  top: 4.62%;
+  bottom: 61.99%;
+}
+
+.Business {
+  position: absolute;
+  left: 31.14%;
+  right: 8.21%;
+  top: 13.62%;
+  bottom: 79.29%;
+font-family: DM Sans;
+font-style: normal;
+font-weight: bold;
+font-size: 42px;
+line-height: 52px;
+letter-spacing: -0.4px;
+color: #1E0E62;
+}
+
+.test {
+  position: absolute;
+left: 31.14%;
+right: 8.21%;
+top: 2.93%;
+bottom: 61.99%;
   width: 569px;
-  height: 52px;
+  height: 96px;
   flex-grow: 0;
-  margin: 0 0 31px;
+  margin: 4em 0 0;
   font-family: DMSans;
-  font-size: 42px;
-  font-weight: bold;
+  font-size: 22px;
+  font-weight: 500;
   font-stretch: normal;
   font-style: normal;
-  line-height: 1.24;
-  letter-spacing: -0.4px;
+  line-height: 1.45;
+  letter-spacing: normal;
   text-align: left;
-  color: #1e0e62;
+  color: rgba(21, 20, 57, 0.4);
+}
+
+.Divider {
+position: absolute;
+left: 32.14%;
+right: 15.29%;
+top: 103.37%;
+bottom: 54.36%;
+width: 470px;
+height: 2px;
+background: #EBEAED;
+mix-blend-mode: normal;
+opacity: 0.1;
+border: 1px solid #141414;
+}
+
+.below {
+position: absolute;
+left: 51.21%;
+right: 37.21%;
+top: 55.18%;
+bottom: 13.62%;
+align-self: center;
+flex-grow: 0;
+margin: 0 83px 0 0;
+}
+
+
+.list_1{
+  position: absolute;
+  height: 26px;
+  
+  right: 39.36%;
+  top: calc(50% - 26px/2 + 15em);
+  
+  /* Text / Label */
+  
+  font-family: DM Sans;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 26px;
+  /* identical to box height, or 186% */
+  
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  
+  /* Colors / Heading */
+  
+  color: #1E0E62;
+  
 }
 
 .Mask {
@@ -177,9 +265,9 @@ body {
   margin: 0 131px 0 0;
 }
 
-img.photo {
+img.Photo {
   width: 585px;
-  height: 734px;
+  height: auto;
   margin: 0 131px 0 0;
   object-fit: contain;
 }
